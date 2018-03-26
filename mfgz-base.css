@@ -197,3 +197,66 @@ a:hover, a:active, a:focus {
   color:inherit;
 }
 
+/*font files*/
+@font-face {
+    font-family: 'mfgz';
+    src: url('fonts/mfgz-4.ttf');
+    src:    url('fonts/mfgz-4-webfont.eot?t02lac');
+    src:    url('fonts/mfgz-4-webfont.eot?t02lac#iefix') format('embedded-opentype'),
+        url('fonts/mfgz-4.ttf?t02lac') format('truetype'),
+        url('fonts/mfgz-4-webfont.woff?t02lac') format('woff'),
+        url('fonts/mfgz-4-webfont.svg?t02lac#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "akzgro";
+    src:url("fonts/akzidenzgroteskbe-regular.eot");
+    src:url("fonts/akzidenzgroteskbe-regular.eot?#iefix") format("embedded-opentype"),
+        url('fonts/akzidenzgroteskbe-regular_cyr.ttf') format('truetype'),
+        url("fonts/akzidenzgroteskbe-regular.woff2") format("woff2"),
+        url("fonts/akzidenzgroteskbe-regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "akzgro";
+    src:url("fonts/akzidenzgroteskbe-it.eot");
+    src:url("fonts/akzidenzgroteskbe-it.eot?#iefix") format("embedded-opentype"),
+        url('fonts/akzidenzgroteskbe-it_cyr.ttf') format('truetype'),
+        url("fonts/akzidenzgroteskbe-it.woff2") format("woff2"),
+        url("fonts/akzidenzgroteskbe-it.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: "akzgro";
+    src:url("fonts/akzgromed.eot");
+    src:url("fonts/akzgromed.eot?#iefix") format("embedded-opentype"),
+        url('fonts/akzgromed_cyr.ttf') format('truetype'),
+        url("fonts/akzgromed.woff2") format("woff2"),
+        url("fonts/akzgromed.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: "akzgro";
+    src:url("fonts/akzgromedit.eot");
+    src:url("fonts/akzgromedit.eot?#iefix") format("embedded-opentype"),
+        url('fonts/akzgromedit_cyr.ttf') format('truetype'),
+        url("fonts/akzgromedit.woff2") format("woff2"),
+        url("fonts/akzgromedit.woff") format("woff");
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: "fontawesome";
+    src:url("fonts/fontawesome-webfont.eot");
+    src:url("fonts/fontawesome-webfont.eot?#iefix") format("embedded-opentype"),
+        url('fonts/fontawesome-webfont.ttf') format('truetype'),
+        url("fonts/fontawesome-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
