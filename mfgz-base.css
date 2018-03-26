@@ -107,6 +107,14 @@ a{
 a:hover, a:active, a:focus {
   outline:0;
 }
+.subtitle{
+  font-weight:bold;
+}
+@media(orientation:portrait),(max-width:800px){
+  .subtitle{
+    font-size:.823em;
+  }
+}
 
 /*containers*/
 .main-content #content{
@@ -196,6 +204,11 @@ a:hover, a:active, a:focus {
 }
 .navbar-default .navbar-brand{
   color:inherit;
+}
+@media(orientation:portrait),(max-width:800px){
+  .navbar-brand{
+    padding-right:0px;
+  }
 }
 
 /*font files*/
