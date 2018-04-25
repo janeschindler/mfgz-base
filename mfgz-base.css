@@ -194,8 +194,12 @@ a:hover, a:active, a:focus {
   line-height:1em;
   display:inline-block;
 }
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{
+	color:#000;
+	opacity:1;
+}
 .navbar-default .navbar-brand{
-  color:inherit;
+	color:#000;
 }
 
 /*font files*/
