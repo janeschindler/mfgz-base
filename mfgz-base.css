@@ -40,7 +40,7 @@ h2, .h2{
 h1.page-title{
   //padding-top:22px;
 }
-@media(max-width:400px){
+@media(max-width:415px){
   h1,.h1{
     font-size: 40px;
   }
