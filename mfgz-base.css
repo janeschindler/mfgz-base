@@ -206,6 +206,7 @@ a:hover, a:active, a:focus {
 	opacity:1;
 }
 .navbar-default .navbar-brand{
+	color:inherit;
 }
 @media(orientation:portrait),(max-width:800px){
   .navbar-brand{
