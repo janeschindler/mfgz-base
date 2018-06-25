@@ -214,6 +214,50 @@ a:hover, a:active, a:focus {
   }
 }
 
+.close-button:before {
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 22px;
+  height: 2px;
+  position: absolute;
+  content: "";
+  border: none;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgba(0,0,0,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: rgb(0,0,0);
+  text-shadow: none;
+  -webkit-transform: rotateZ(45deg);
+  transform: rotateZ(45deg);
+  left:0px;
+  top:11px;
+}
+
+.close-button:after {
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 22px;
+  height: 2px;
+  position: absolute;
+  content: "";
+  border: none;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgba(0,0,0,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: rgb(0,0,0);
+  text-shadow: none;
+  -webkit-transform: rotateZ(-45deg);
+  transform: rotateZ(-45deg);
+  left:0px;
+  top:11px;
+}
+
 /*font files*/
 @font-face {
     font-family: 'mfgz';
